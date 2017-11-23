@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/movies/movies",
+    "pages/switchcity/switchcity",
+    "pages/weather/weather",
+    "pages/news/news",
+    "pages/detail/detail",
+    "pages/movies/movie-detail/movie-detail",
+    "pages/movies/more-movie/more-movie",
+    "pages/map/map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#689F38",
+    "navigationBarTitleText": "蜗牛生活服务",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "position": "top",
+    "backgroundColor": "#689F38",
+    "color": "#DCEDC8",
+    "selectedColor": "#DCEDC8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "周边"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影"
+      },
+      {
+        "pagePath": "pages/switchcity/switchcity",
+        "text": "城市"
+      },
+      {
+        "pagePath": "pages/weather/weather",
+        "text": "天气"
+      }
+    ]
+  }
+}
