@@ -37,6 +37,16 @@ Page({
     console.log('onLoad')
     var that = this
     requestData(that, mCurrentPage + 1);
+    wx.openBluetoothAdapter({
+      success: function (res) {
+        console.log(res)
+        console.log(111)
+      },
+      fail:function(res){
+        console.log(res)
+      }
+    })
+    console.log(222)
   }
 
 })
